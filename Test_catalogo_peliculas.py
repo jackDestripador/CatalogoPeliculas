@@ -1,5 +1,5 @@
-from dominio.pelicula import Pelicula
-from servicio.catalogo_peliculas import CatalogoPeliculas
+from Dominio.pelicula import  Pelicula
+from Servicio.catalogo_peliculas import CatalogoPeliculas
 
 opcion = None 
 while opcion != "4":

@@ -1,5 +1,5 @@
 class Pelicula:
-    def __init:__(self, nombre):
+    def __init__(self, nombre):
         self.__nombre = nombre
         
     def __str__(self):
