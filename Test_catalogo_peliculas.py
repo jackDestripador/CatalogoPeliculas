@@ -1,4 +1,4 @@
-from Dominio.pelicula import  Pelicula
+from Dominio.pelicula import Pelicula
 from Servicio.catalogo_peliculas import CatalogoPeliculas
 
 opcion = None 
@@ -8,7 +8,7 @@ while opcion != "4":
     print("2. Listar peliculas")
     print("3. Eliminar CatalogoPeliculas")
     print("4. Salir")
-    opcion = input("Escribe tu opcion (1-4)")
+    opcion = input("Escribe tu opcion (1-4): ")
     if opcion == "1":
         nombre_pelicula = input("Proporciona el nombre de la pelicula: ")
         pelicula = Pelicula(nombre_pelicula)
