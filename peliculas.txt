@@ -1,0 +1,3 @@
+Pelicula:Dumbo
+Pelicula:El rey leon
+Pelicula:Alicia en el pais de la maravilla
