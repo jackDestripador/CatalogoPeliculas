@@ -1,3 +1,4 @@
+# importamos nuestra clase
 from dominio.pelicula import Pelicula
 from servicio.catalogo_peliculas import CatalogoPeliculas
 
@@ -10,11 +11,12 @@ while opcion != "4":
     print("4. Salir")
     opcion = input("Escribe tu opción (1-4): ")
     if opcion == "1":
-        nombre_pelicula = input("Proporciona el nombre de la pelicula: ")
-        pelicula = Pelicula(nombre_pelicula)
+        nombre_pelicula = input("Proporciona el Nombre de la pelicula: ")
+        genero_pelicula = input("Proporciona el Genero de la pelicula: ")
+        pelicula = Pelicula(nombre_pelicula, genero_pelicula)
         CatalogoPeliculas.agregar_pelicula(pelicula)
     elif opcion == "2":
-        CatalogoPeliculas.listar_peliculas()    
+        CatalogoPeliculas.listar_peliculas()
     elif opcion == "3":
         CatalogoPeliculas.eliminar()
 else:
