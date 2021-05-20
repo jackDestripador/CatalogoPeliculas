@@ -11,6 +11,6 @@ Agregar,Listar catalogo de peliculas, eliminar archivo y salir de la aplicación
 
 Dentro del directorio
 
-~cd /Pelicula~
+```cd /Pelicula```
 Ejecute el siguiente archivo
-~py test_catalogo_peliculas.py~
+```py test_catalogo_peliculas.py```
