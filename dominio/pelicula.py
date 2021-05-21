@@ -17,7 +17,7 @@ class Pelicula:
     # Definimos el metodo con el parametro de self
     def __str__(self):
         # Regresamos la cadena con los atributos del objeto
-        return "Id Pelicula: " + str(self.__id_pelicula)+" " + " Título de la Pelicula: "+self.__nombre + "Genero: "+self.__genero + "Idioma" + self.__idioma + "Actores o Autoras" + self.__actores
+        return "Id Pelicula: " + str(self.__id_pelicula)+" " + " Título de la Pelicula: "+self.__nombre + " " + "Genero: "+self.__genero + " " + " Idioma: " + self.__idioma + " " + " Actores o Autoras: " + " " + self.__actores+" "
 
     # Definimos el metodo de get para obtener el atributo
     def get_nombre(self):
